@@ -3,25 +3,27 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    color: #d0e7ff;
-    background: #0b1b33
+    color: #060b16;
+    background: #01172a;
 }
 
 h1{
     color: #4fc3f7;
     margin-top: 20px;
+    text-shadow: 0 0 5px #4fc3f7;
 }
 
 h2 {
    color: #81d4fa;
    font-size: 18px;
+   text-shadow: 0 0 4px #81d4fa;
 }
 
 form {
    width: 90%;
    max-width: 600px;
-   margin: 20px auto;
-   background: #07111f;
+   margin: 25px auto;
+   background: #0a1222;
    padding: 20px;
    border: 2px solid #4fc3f7;
    border-radius: 10px;
@@ -29,52 +31,56 @@ form {
 
 .seccion {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 label {
     font-weight: bold;
-    display: block;
+    color: #a8d8ff;
     margin-bottom: 5px;
+    display: block;
 }
 
 select {
     width: 100%;
     padding: 8px;
     border: 2px solid #4fc3f7;
-    background: #0b1b33;
-    color: #d0e7ff;
+    background: #07111f;
+    color: #cfe9ff;
 }
 
 .accesorios label {
-    display: block;
-    margin: 3px 0;
+    margin: 4px 0;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    border: none;
+    padding: 12px;
     background: #4fc3f7;
+    border: none;
     color: #07111f;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
 button:hover {
     background: #81d4fa;
+    border: 2px solid #a4e1ff;
 }
 
 #resultado {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     color: #4fc3f7;
+    text-shadow: 0 0 5px #4fc3f7;
 }
 
 footer {
     margin-top: 30px;
     padding: 10px;
     color: #81d4fa;
+    text-shadow: 0 0 3px #81d4fa;
 }
